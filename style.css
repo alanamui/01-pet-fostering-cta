@@ -1,0 +1,75 @@
+
+/* Info section styles */
+.info-section {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  display: table;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 24px 0;
+}
+
+.info-image {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  text-align: center;
+  max-width: 300px;
+  padding: 0 20px;
+}
+
+.info-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.info-text {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.info-text h2 {
+  margin-top: 0;
+}
+.cta-button {
+  background-color: teal;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+/* Banner styles */
+.banner {
+  background-image: url('img/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 60px 20px;
+  color: #222;
+  text-align: center;
+  overflow: hidden;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.5); /* Light overlay */
+  z-index: 1;
+}
+
+.banner h1,
+.banner p {
+  position: relative;
+  z-index: 2;
+}
